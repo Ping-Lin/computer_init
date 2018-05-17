@@ -1,3 +1,5 @@
+sudo apt-get update
+
 # set up the chinese typing -> chewing
 sudo apt-get -y install ibus-chewing
 ibus restart
@@ -9,7 +11,7 @@ sudo apt-get -y install net-tools
 sudo apt-get -y install silversearcher-ag
 sudo apt-get -y install autojump
 sudo apt-get -y install curl
-sudo apt-get -y install python-pip python-dev build-essential
+sudo apt-get -y install python-pip python-dev build-essential python3-pip
 
 
 # set up the from-top terminal
