@@ -9,6 +9,7 @@ sudo apt-get -y install net-tools
 sudo apt-get -y install silversearcher-ag
 sudo apt-get -y install autojump
 sudo apt-get -y install curl
+sudo apt-get -y install python-pip python-dev build-essential
 
 
 # set up the from-top terminal
