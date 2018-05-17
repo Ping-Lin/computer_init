@@ -19,22 +19,16 @@ sudo apt-get -y install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # set up git
-git config --global user.name "Ping-Lin"
-git config --global user.email billy3962@hotmail.com
-git config --global alias.br branch
-git config --global alias.st status
-git config --global alias.cm commit
-git config --global alias.co checkout
-git config --global color.ui auto
+cp gitconfig ~/.gitconfig
 
 # set up tmux
 sudo apt-get -y install tmux
 echo alias tmux=\'tmux -2\' >> ~/.zshrc
-ln tmux.conf ~/.tmux.conf
+cp tmux.conf ~/.tmux.conf
 
 # update my vimrc
 cd
-mkdir workspace
+mkdir -p workspace
 cd workspace
 git clone https://github.com/Ping-Lin/my_vimrc
 cd my_vimrc
