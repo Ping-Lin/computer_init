@@ -8,6 +8,7 @@ sudo apt-get -y install git
 sudo apt-get -y install net-tools
 sudo apt-get -y install silversearcher-ag
 sudo apt-get -y install autojump
+sudo apt-get -y install curl
 
 
 # set up the from-top terminal
