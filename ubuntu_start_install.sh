@@ -5,6 +5,10 @@ ibus restart
 # install common applications
 sudo apt-get -y install vim
 sudo apt-get -y install git
+sudo apt-get -y install net-tools
+sudo apt-get -y install silversearcher-ag
+sudo apt-get -y install autojump
+
 
 # set up the from-top terminal
 # need to manual set up the main window height, 
